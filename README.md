@@ -8,6 +8,12 @@ This problem was observed across our project, Zapdroid which is an AI chatbot de
 
 # Approach
 
-Our approach is to develop a filter layer that meticulously applies to each AI-generated output. This filter layer is linked to a side vector database encompassing comprehensive organizational information. Every factual output produced by the AI is scrutinized against this vector database, serving as a verification checkpoint. This process ensures that each output aligns with the organization's source of truth, promising consistency and reducing the instances of AI hallucination.
+Our approach is to develop a filter layer that meticulously applies to each AI-generated output. 
 
+Connect services
 
+1. Self-managed Database(s): This filter layer is linked to a side vector database encompassing comprehensive organizational information. Every factual output produced by the AI is scrutinized against this vector database, serving as a verification checkpoint. This process ensures that each output aligns with the organization's source of truth, promising consistency and reducing the instances of AI hallucination. Example: pdf, doc, xls and web pages.
+
+2. 3rd party data indexes: Like diffbot
+
+3. 
